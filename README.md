@@ -1,1 +1,1 @@
-# juanplateado.github.io
+google.com, pub-1150843350889114, DIRECT, f08c47fec0942fa0
