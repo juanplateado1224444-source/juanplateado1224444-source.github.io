@@ -1,6 +1,6 @@
 # Política de Privacidad de Nuvora
 
-**Última actualización: septiembre de 2026 — versión 3.0.0**
+**Última actualización: octubre de 2026 — versión 3.2.0**
 
 Nuvora ("la aplicación") es una herramienta de finanzas personales y de negocio. Esta política explica qué datos utiliza, dónde se guardan, cuándo salen de tu dispositivo y qué derechos tienes.
 
@@ -11,8 +11,10 @@ Nuvora funciona con los datos que tú introduces voluntariamente:
 - **Datos financieros:** cuentas, saldos, gastos, ingresos, presupuestos, objetivos y fondos de ahorro, deudas, créditos a clientes, inventarios, arqueos de caja, recordatorios y suscripciones.
 - **Datos de cuenta (opcionales):** si decides crear una cuenta en la nube, tu **correo electrónico** y un identificador de usuario generado por Firebase Authentication. Si entras con Google, Google nos confirma tu correo; Nuvora nunca recibe tu contraseña de Google.
 - **Datos de compra:** si adquieres la suscripción Premium, la transacción la procesa Google Play; Nuvora solo recibe el estado de tu suscripción (activa o no), nunca tus datos de pago.
+- **Fotos del catálogo (opcionales):** si usas el catálogo de WhatsApp del módulo Emprendedor, puedes elegir fotos de tu galería para tus productos. Las fotos se guardan únicamente en tu teléfono, no se suben a ningún servidor (tampoco a la nube de respaldo) y solo salen del dispositivo cuando tú decides compartirlas por WhatsApp.
+- **Texto del comando inteligente:** la función "Escríbelo y Nuvora lo registra" interpreta lo que escribes directamente en tu dispositivo para crear el movimiento; ese texto no se envía a ningún servidor.
 
-Nuvora **no** recopila ubicación, contactos, fotos, archivos ni datos de uso analítico. El **identificador de publicidad** solo lo gestiona Google AdMob para los anuncios de la versión gratuita (ver sección 4); Nuvora no lo lee ni lo almacena.
+Nuvora **no** recopila ubicación, contactos ni datos de uso analítico. Las fotos del catálogo y los archivos que exportas permanecen en tu dispositivo y no se transmiten a nuestros servidores (ver sección 1). El **identificador de publicidad** solo lo gestiona Google AdMob para los anuncios de la versión gratuita (ver sección 4); Nuvora no lo lee ni lo almacena.
 
 ## 2. Dónde se guardan tus datos
 
@@ -27,6 +29,7 @@ Nuvora **no** recopila ubicación, contactos, fotos, archivos ni datos de uso an
 - **Google Play Billing** — Suscripción Premium. Recibe: gestión de la compra (la procesa Google).
 - **Google AdMob** — Anuncios en la versión gratuita. Recibe: identificador de publicidad e interacción con anuncios.
 - **APIs públicas de tasas (DolarApi, Binance P2P, ER-API)** — Tasas de cambio BCV, paralelo, USDT y divisas. No reciben ningún dato personal; solo consultas de tasas.
+- **WhatsApp (solo si tú compartes)** — Enviar catálogo, cobros o recibos a tus contactos. Recibe: solo lo que tú eliges compartir manualmente; Nuvora no envía nada por su cuenta.
 
 ## 4. Anuncios (solo en la versión gratuita)
 
